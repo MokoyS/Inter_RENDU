@@ -1,0 +1,105 @@
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+  position: absolute;
+  z-index: 10;
+}
+header .navigation {
+  display: flex;
+  align-items: center;
+}
+header .navigation ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 18px;
+}
+header .navigation ul a {
+  color: white;
+}
+header img {
+  height: 69px;
+}
+header .nav {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .nav {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .nav {
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.commander {
+  padding: 10px 30px;
+  color: #B2D234;
+  font-weight: 800;
+  background-color: white;
+  margin-left: 40px;
+  border-radius: 25px;
+  width: 165px;
+}
+
+.home {
+  height: 767px;
+  background-image: url("img/home_back.png");
+  background-size: cover;
+}
+.home .cover {
+  background-image: linear-gradient(to right, #60a0d8, #00b7de, #00c9bd, #41d37d, #b2d234);
+  height: 767px;
+  filter: opacity(0.4);
+}
+.home .reseaux {
+  display: flex;
+  flex-direction: row;
+  left: 20px;
+  bottom: 20px;
+  gap: 20px;
+}
+.home .reseaux img {
+  height: 40px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 52pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

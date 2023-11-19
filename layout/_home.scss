@@ -1,0 +1,24 @@
+.home {
+    height: 767px;
+    background-image: url("img/home_back.png");
+    background-size: cover;
+
+    .cover {
+        background-image: linear-gradient(to right, #60a0d8, #00b7de, #00c9bd, #41d37d, #b2d234);
+        height: 767px;
+        filter: opacity(0.4);
+
+    }
+
+    .reseaux {
+        display: flex;
+        flex-direction: row;
+        left: 20px;
+        bottom: 20px;
+        gap: 20px;
+
+        img {
+            height: 40px;
+        }
+    }
+}

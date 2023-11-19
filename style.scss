@@ -1,0 +1,28 @@
+@use 'utils/variables';
+@use 'layout/header';
+@use 'components/buttons';
+@use 'layout/home';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: variables.$font-primary;
+}
+
+h1 {
+    font-size: 52pt;
+}
+
+p {
+    font-size: 18pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+

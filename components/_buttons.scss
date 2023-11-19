@@ -1,0 +1,11 @@
+@use '../utils/variables';
+
+.commander {
+    padding:10px 30px;
+    color: variables.$clr-green;
+    font-weight: 800;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 25px;
+    width: 165px;
+}
